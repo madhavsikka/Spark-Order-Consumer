@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1578639786965
+Build-Jdk: 1.8.0_202
+Built-By: default
+Bundle-Description: Jersey core Servlet 3.x implementation
+Bundle-DocURL: https://www.eclipse.org/org/foundation/
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html, http://www.eclipse.org/org/docum
+ ents/edl-v10.php, https://opensource.org/licenses/BSD-2-Clause, http:
+ //www.apache.org/licenses/LICENSE-2.0.html, https://creativecommons.o
+ rg/publicdomain/zero/1.0/, http://asm.objectweb.org/license.html, jqu
+ ery.org/license, http://www.opensource.org/licenses/mit-license.php, 
+ https://www.w3.org/Consortium/Legal/copyright-documents-19990405
+Bundle-ManifestVersion: 2
+Bundle-Name: jersey-container-servlet
+Bundle-SymbolicName: org.glassfish.jersey.containers.jersey-container-
+ servlet
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 2.30.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.glassfish.jersey.servlet.init;uses:="javax.servlet
+ ,javax.servlet.annotation,javax.ws.rs,javax.ws.rs.core,javax.ws.rs.ex
+ t,org.glassfish.jersey.servlet.spi";version="2.30.0",org.glassfish.je
+ rsey.servlet.async;uses:="javax.servlet.http,org.glassfish.jersey.ser
+ vlet.spi";version="2.30.0"
+Import-Package: javax.servlet;version="[3.0,5.0)",javax.servlet.annota
+ tion;version="[3.0,5.0)",javax.servlet.http;version="[3.0,5.0)",javax
+ .ws.rs;version="[2.1,3)",javax.ws.rs.core;version="[2.1,3)",javax.ws.
+ rs.ext;version="[2.1,3)",org.glassfish.jersey.internal.l10n;version="
+ [2.30,3)",org.glassfish.jersey.server;version="[2.30,3)",org.glassfis
+ h.jersey.servlet;version="[2.30,3)",org.glassfish.jersey.servlet.inte
+ rnal;version="[2.30,3)",org.glassfish.jersey.servlet.internal.spi;ver
+ sion="[2.30,3)",org.glassfish.jersey.servlet.spi;version="[2.30,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.5.0.201709291849

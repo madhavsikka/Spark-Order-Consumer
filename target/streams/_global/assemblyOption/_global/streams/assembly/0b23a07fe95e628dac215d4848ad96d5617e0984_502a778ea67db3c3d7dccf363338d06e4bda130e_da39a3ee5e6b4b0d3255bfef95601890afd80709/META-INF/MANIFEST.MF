@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.codahale.metrics.graphite
+Bnd-LastModified: 1571490742355
+Build-Jdk: 1.8.0_222
+Built-By: artem
+Bundle-Description: A reporter for Metrics which announces measurement
+ s to a Graphite server.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Graphite Integration for Metrics
+Bundle-SymbolicName: io.dropwizard.metrics.graphite
+Bundle-Version: 4.1.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.codahale.metrics.graphite;uses:="com.codahale.metr
+ ics,com.rabbitmq.client,javax.net";version="4.1.1"
+Implementation-Title: Graphite Integration for Metrics
+Implementation-URL: http://metrics.dropwizard.io/metrics-graphite
+Implementation-Vendor-Id: io.dropwizard.metrics
+Implementation-Version: 4.1.1
+Import-Package: org.slf4j;version="[1.6.0,2.0.0)",com.codahale.metrics
+ ;version="[4.1,5)",com.rabbitmq.client;version="[5.5,6)",javax.net
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.2.0.201903051501
+

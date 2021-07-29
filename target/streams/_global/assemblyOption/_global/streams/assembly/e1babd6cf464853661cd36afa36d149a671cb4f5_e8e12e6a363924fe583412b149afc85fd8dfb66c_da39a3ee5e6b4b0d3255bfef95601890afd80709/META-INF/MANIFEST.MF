@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Hive Storage API
+Implementation-Version: 2.7.1
+Archiver-Version: Plexus Archiver
+Built-By: owen
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Hive Storage API
+Implementation-Vendor-Id: org.apache.hive
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Apache Maven 3.6.2
+Build-Jdk: 1.8.0_232
+Specification-Version: 2.7
+Implementation-URL: https://www.apache.org/hive-storage-api/
+

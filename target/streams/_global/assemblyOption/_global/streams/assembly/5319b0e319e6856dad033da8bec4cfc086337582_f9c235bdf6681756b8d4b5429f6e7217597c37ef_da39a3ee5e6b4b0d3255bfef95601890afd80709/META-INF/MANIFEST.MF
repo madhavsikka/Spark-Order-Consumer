@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: stream-lib
+Implementation-Version: 2.9.6
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Specification-Vendor: AddThis
+Specification-Title: stream-lib
+Implementation-Vendor-Id: com.clearspring.analytics
+Implementation-Vendor: AddThis
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.8.0_92
+Specification-Version: 2.9.6
+Implementation-URL: https://github.com/addthis/stream-lib
+

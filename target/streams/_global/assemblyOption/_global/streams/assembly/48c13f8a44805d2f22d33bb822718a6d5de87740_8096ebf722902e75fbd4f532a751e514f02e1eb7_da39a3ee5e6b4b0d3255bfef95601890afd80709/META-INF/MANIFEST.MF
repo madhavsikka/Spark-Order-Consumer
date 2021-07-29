@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-Description: Injection API (JSR 330) version ${javax.inject.ver
+ sion} repackaged as OSGi bundle
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html
+Bundle-SymbolicName: org.glassfish.hk2.external.jakarta.inject
+Implementation-Version: 1
+Built-By: default
+Bnd-LastModified: 1566581271800
+Bundle-ManifestVersion: 2
+Bundle-DocURL: http://www.oracle.com
+Bundle-Vendor: Oracle Corporation
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252
+Export-Package: javax.inject;version=1
+Bundle-Name: javax.inject:1 as OSGi bundle
+Bundle-Version: 2.6.1
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_202
+

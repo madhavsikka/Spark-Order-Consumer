@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-Description: Used by various API providers that rely on META-IN
+ F/services mechanism to locate providers.
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html
+Bundle-SymbolicName: org.glassfish.hk2.osgi-resource-locator
+Archiver-Version: Plexus Archiver
+Built-By: default
+Bnd-LastModified: 1546517651539
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-DocURL: https://www.eclipse.org
+Bundle-Vendor: Eclipse Foundation
+Import-Package: org.osgi.framework;version="[1.8,2)",org.glassfish.hk2
+ .osgiresourcelocator;version="1.0.3"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Tool: Bnd-4.1.0.201810181252
+Export-Package: org.glassfish.hk2.osgiresourcelocator;uses:="org.osgi.
+ framework";version="1.0.3"
+Bundle-Name: OSGi resource locator
+Bundle-Version: 1.0.3
+Bundle-Activator: org.glassfish.hk2.osgiresourcelocator.Activator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_181
+

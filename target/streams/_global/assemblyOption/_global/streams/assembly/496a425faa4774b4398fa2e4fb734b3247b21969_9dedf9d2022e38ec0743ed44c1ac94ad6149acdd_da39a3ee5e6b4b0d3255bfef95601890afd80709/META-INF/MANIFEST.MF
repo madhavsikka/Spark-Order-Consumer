@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Description: ServiceLocator Default Implementation
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html
+Bundle-SymbolicName: org.glassfish.hk2.locator
+Built-By: default
+Bnd-LastModified: 1566581325871
+Bundle-ManifestVersion: 2
+Bundle-DocURL: http://www.oracle.com
+Bundle-Vendor: Oracle Corporation
+Import-Package: javassist.util.proxy;version="[3.22,4)",javax.inject;v
+ ersion="[1.0,2)",org.aopalliance.intercept;version="[1.0,2)",org.glas
+ sfish.hk2.api;version="[2.6,3)",org.glassfish.hk2.api.messaging;versi
+ on="[2.6,3)",org.glassfish.hk2.extension;version="[2.6,3)",org.glassf
+ ish.hk2.utilities;version="[2.6,3)",org.glassfish.hk2.utilities.cache
+ ;version="[2.6,3)",org.glassfish.hk2.utilities.general;version="[2.6,
+ 3)",org.glassfish.hk2.utilities.reflection;version="[2.6,3)",org.glas
+ sfish.hk2.utilities.reflection.internal;version="[2.6,3)",org.jvnet.h
+ k2.annotations;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+DynamicImport-Package: *
+Tool: Bnd-4.1.0.201810181252
+Export-Package: org.jvnet.hk2.external.generator;version="2.6.1";uses:
+ ="org.glassfish.hk2.api,org.glassfish.hk2.extension",org.jvnet.hk2.ex
+ ternal.runtime;version="2.6.1";uses:="org.glassfish.hk2.api,org.jvnet
+ .hk2.annotations"
+Bundle-Name: ServiceLocator Default Implementation
+Bundle-Version: 2.6.1
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_202
+

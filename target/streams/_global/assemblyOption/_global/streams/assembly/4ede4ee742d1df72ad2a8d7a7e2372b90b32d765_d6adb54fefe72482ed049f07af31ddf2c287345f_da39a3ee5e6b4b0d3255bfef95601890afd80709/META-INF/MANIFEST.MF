@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Built-By: stephen-user
+Build-Jdk: 9.0.1
+Specification-Title: ThreeTen-Extra
+Specification-Version: 1.5.0
+Specification-Vendor: ThreeTen.org
+Implementation-Title: ThreeTen-Extra
+Implementation-Version: 1.5.0
+Implementation-Vendor-Id: org.threeten
+Implementation-Vendor: ThreeTen.org
+Implementation-URL: https://www.threeten.org/threeten-extra
+Bnd-LastModified: 1551012882138
+Bundle-Description: Additional functionality that enhances JSR-310 dat
+ es and times in Java SE 8 and later
+Bundle-DocURL: https://www.threeten.org
+Bundle-License: https://raw.githubusercontent.com/ThreeTen/threeten-ex
+ tra/master/LICENSE.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: ThreeTen-Extra
+Bundle-SymbolicName: org.threeten.extra
+Bundle-Vendor: ThreeTen.org
+Bundle-Version: 1.5.0
+Export-Package: org.threeten.extra;uses:="org.joda.convert";version="1
+ .5.0",org.threeten.extra.chrono;version="1.5.0",org.threeten.extra.sc
+ ale;uses:="org.joda.convert";version="1.5.0"
+Import-Package: org.joda.convert;version="[2.2,3)";resolution:=optiona
+ l
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.1.0.201810181252
+

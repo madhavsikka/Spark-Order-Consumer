@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bundle-Description: HK2 API module
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.
+ org/software/classpath/license.html
+Bundle-SymbolicName: org.glassfish.hk2.api
+Built-By: default
+Bnd-LastModified: 1566581318263
+Bundle-ManifestVersion: 2
+Bundle-DocURL: http://www.oracle.com
+Bundle-Vendor: Oracle Corporation
+Import-Package: javax.inject;version="[1.0,2)",org.aopalliance.interce
+ pt;version="[1.0,2)",org.glassfish.hk2.extension;version="[2.6,3)",or
+ g.glassfish.hk2.osgiresourcelocator;version="[1.0,2)";resolution:=opt
+ ional,org.glassfish.hk2.utilities.binding;version="[2.6,3)",org.glass
+ fish.hk2.utilities.general;version="[2.6,3)",org.glassfish.hk2.utilit
+ ies.reflection;version="[2.6,3)",org.jvnet.hk2.annotations;version="[
+ 2.6,3)",org.jvnet.hk2.component;version="[2.6,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+DynamicImport-Package: *
+Tool: Bnd-4.1.0.201810181252
+Export-Package: org.glassfish.hk2.api;version="2.6.1";uses:="javax.inj
+ ect,org.aopalliance.intercept,org.glassfish.hk2.extension,org.glassfi
+ sh.hk2.utilities,org.jvnet.hk2.annotations",org.glassfish.hk2.api.mes
+ saging;version="2.6.1";uses:="javax.inject,org.glassfish.hk2.api,org.
+ jvnet.hk2.annotations",org.glassfish.hk2.extension;version="2.6.1";us
+ es:="org.glassfish.hk2.api",org.glassfish.hk2.utilities;version="2.6.
+ 1";uses:="javax.inject,org.glassfish.hk2.api,org.glassfish.hk2.utilit
+ ies.binding,org.jvnet.hk2.annotations",org.glassfish.hk2.utilities.bi
+ nding;version="2.6.1";uses:="org.glassfish.hk2.api,org.glassfish.hk2.
+ utilities",org.jvnet.hk2.annotations;version="2.6.1";uses:="org.glass
+ fish.hk2.api",com.sun.hk2.component;version="2.6.1"
+Bundle-Name: HK2 API module
+Bundle-Version: 2.6.1
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_202
+

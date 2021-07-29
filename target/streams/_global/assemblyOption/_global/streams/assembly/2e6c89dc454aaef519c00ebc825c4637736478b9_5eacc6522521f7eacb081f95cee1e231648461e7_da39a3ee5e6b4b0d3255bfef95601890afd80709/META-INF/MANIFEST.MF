@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-Description: Jakarta Bean Validation API
+Automatic-Module-Name: java.validation
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: jakarta.validation.jakarta.validation-api
+Built-By: default
+Bnd-LastModified: 1565473508715
+Bundle-ManifestVersion: 2
+Bundle-DocURL: https://www.eclipse.org
+Bundle-Vendor: Eclipse Foundation
+Import-Package: javax.validation;version="[2.0,3)",javax.validation.bo
+ otstrap;version="[2.0,3)",javax.validation.executable;version="[2.0,3
+ )",javax.validation.metadata;version="[2.0,3)",javax.validation.spi;v
+ ersion="[2.0,3)",javax.validation.valueextraction;version="[2.0,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
+Export-Package: javax.validation;version="2.0.2";uses:="javax.validati
+ on.bootstrap,javax.validation.executable,javax.validation.metadata,ja
+ vax.validation.spi,javax.validation.valueextraction",javax.validation
+ .bootstrap;version="2.0.2";uses:="javax.validation",javax.validation.
+ constraints;version="2.0.2";uses:="javax.validation",javax.validation
+ .constraintvalidation;version="2.0.2",javax.validation.executable;ver
+ sion="2.0.2";uses:="javax.validation",javax.validation.groups;version
+ ="2.0.2",javax.validation.metadata;version="2.0.2";uses:="javax.valid
+ ation",javax.validation.spi;version="2.0.2";uses:="javax.validation,j
+ avax.validation.valueextraction",javax.validation.valueextraction;ver
+ sion="2.0.2";uses:="javax.validation"
+Bundle-Name: Jakarta Bean Validation API
+Bundle-Version: 2.0.2
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_202
+

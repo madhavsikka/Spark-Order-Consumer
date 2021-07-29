@@ -1,0 +1,25 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Apache XBean :: ASM shaded (repackaged)
+
+
+From: 'OW2' (http://www.ow2.org/)
+  - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:7.2
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-analysis (http://asm.ow2.io/) org.ow2.asm:asm-analysis:jar:7.2
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-commons (http://asm.ow2.io/) org.ow2.asm:asm-commons:jar:7.2
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+  - asm-tree (http://asm.ow2.io/) org.ow2.asm:asm-tree:jar:7.2
+    License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+
+From: 'The Apache Software Foundation' (http://www.apache.org)
+  - Apache XBean :: ASM Util (http://geronimo.apache.org/maven/xbean/4.15/xbean-asm-util) org.apache.xbean:xbean-asm-util:bundle:4.15
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

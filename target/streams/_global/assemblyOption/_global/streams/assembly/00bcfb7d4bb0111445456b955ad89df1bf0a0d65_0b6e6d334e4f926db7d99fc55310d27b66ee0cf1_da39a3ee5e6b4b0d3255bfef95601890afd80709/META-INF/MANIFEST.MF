@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Kafka 0.10+ Token Provider for Streaming
+Implementation-Version: 3.0.0
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Kafka 0.10+ Token Provider for Streaming
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.4.0
+Specification-Version: 3.0
+Implementation-Vendor: The Apache Software Foundation
+
